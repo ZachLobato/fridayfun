@@ -10,6 +10,7 @@ namespace FridayFun_
     {
         public int minimumNumberOfCuts (int stickLength) {
 
+            // No Cuts
             int cutsCount = 0;
             
             // If stick is of length one it can't be cut
@@ -18,6 +19,7 @@ namespace FridayFun_
                 return cutsCount;
             }
 
+            // The first cut is the deepest
             cutsCount = 1;
             int potentialPieces = 2;
 
